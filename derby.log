@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jan 13 17:52:33 CET 2015:
+ Iniciando instancia a816c00e-014a-e436-0684-000006fc29b0 de Derby, versión The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): 
+en el directorio de base de datos C:\Users\Jordi\workspaceAulaMentor\VideoClub_Examen\assetsdb\videoclub con el cargador de clases sun.misc.Launcher$AppClassLoader@65f102c1
+Cargado desde file:/E:/dev/db-derby-10.10.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_71-b14
+user.dir=C:\Users\Jordi\workspaceAulaMentor\VideoClub_Examen
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Cargador de clases de base de datos iniciado - derby.database.classpath=''

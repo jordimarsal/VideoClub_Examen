@@ -1,0 +1,1 @@
+set CLASSPATH=E:\dev\db-derby-10.10.2.0-bin\lib\derby.jar;E:\dev\db-derby-10.10.2.0-bin\lib\derbytools.jar;%CLASSPATH%

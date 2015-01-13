@@ -1,0 +1,57 @@
+connect 'jdbc:derby:C:\Users\Jordi\workspaceAulaMentor\VideoClub_Examen\asse
+tsdb\videoclub;create=true';
+
+insert into ALQUILERES values ('A001','Juegos de Guerra',5012,'10-Sep-2011')
+insert into ALQUILERES values ('A001','Juegos de Guerra',2845,'12-Sep-2011')
+insert into ALQUILERES values ('A001','Juegos de Guerra',8733,'25-Sep-2011');
+insert into ALQUILERES values ('A002','The Matrix',1300,'31-Mar-2009');
+insert into ALQUILERES values ('A002','The Matrix',1999,'31-Mar-2010');
+insert into ALQUILERES values ('A002','The Matrix',3137,'31-Mar-2011');
+insert into ALQUILERES values ('A002','The Matrix',4171,'31-Mar-2012');
+insert into ALQUILERES values ('B012','Operación Swordfish',3137,'08-Jun-2011');
+insert into ALQUILERES values ('B012','Operación Swordfish',1010,'21-Jul-2011');
+
+
+E:\dev\db-derby-10.10.2.0-bin\lib>set CLASSPATH=E:\dev\db-derby-10.10.2.0-bin\li
+b\derby.jar;E:\dev\db-derby-10.10.2.0-bin\lib\derbytools.jar;.;C:\Users\Jordi\UO
+C\DED\EP1\tads_cat.jar
+
+E:\dev\db-derby-10.10.2.0-bin\lib>cd ..
+
+E:\dev\db-derby-10.10.2.0-bin>cd bin
+
+E:\dev\db-derby-10.10.2.0-bin\bin>ij
+Versi¾n de ij 10.10
+ij> connect 'jdbc:derby:C:\Users\Jordi\workspaceAulaMentor\VideoClub_Examen\asse
+tsdb\videoclub;create=true';
+ij> create table ALQUILERES (ID varchar(4), TITULO varchar(50), SOCIO integer, F
+ECHA varchar(11));
+0 filas insertadas/actualizadas/suprimidas
+ij> insert into ALQUILERES values ('A001','Juegos de Guerra',5012,'10-Sep-2011')
+;
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('A001','Juegos de Guerra',2845,'12-Sep-2011')
+;
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('A001','Juegos de Guerra',8733,'25-Sep-2011')
+;
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('A002','The Matrix',1300,'31-Mar-2009');
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('A002','The Matrix',1999,'31-Mar-2010');
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('A002','The Matrix',3137,'31-Mar-2011');
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('A002','The Matrix',4171,'31-Mar-2012');
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('B012','Operación Swordfish',3137,'08-Jun-201
+1');
+1 fila insertada/actualizada/suprimida
+ij> insert into ALQUILERES values ('B012','Operación Swordfish',1010,'21-Jul-201
+1');
+1 fila insertada/actualizada/suprimida
+ij> disconnect;
+ij> exit;
+E:\dev\db-derby-10.10.2.0-bin\bin>
+
+poner a derby.jar como jar externo para el build path del proyecto

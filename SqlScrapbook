@@ -1,0 +1,10 @@
+create table ALQUILER (ID varchar(4), TITULO varchar(50), SOCIO integer, FECHA varchar(11));
+insert into ALQUILER values ('A001','Juegos de Guerra',5012,'10-Sep-2011');
+insert into ALQUILER values ('A001','Juegos de Guerra',2845,'12-Sep-2011');
+insert into ALQUILER values ('A001','Juegos de Guerra',8733,'25-Sep-2011');
+insert into ALQUILER values ('A002','The Matrix',1300,'31-Mar-2009');
+insert into ALQUILER values ('A002','The Matrix',1999,'31-Mar-2010');
+insert into ALQUILER values ('A002','The Matrix',3137,'31-Mar-2011');
+insert into ALQUILER values ('A002','The Matrix',4171,'31-Mar-2012');
+insert into ALQUILER values ('B012','Operación Swordfish',3137,'08-Jun-2011');
+insert into ALQUILER values ('B012','Operación Swordfish',1010,'21-Jul-2011');
